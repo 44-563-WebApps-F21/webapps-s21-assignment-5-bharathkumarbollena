@@ -14,6 +14,20 @@
 
 </head>
 <body>
+  <style>
+    a{
+      border: 1px solid black; /* Gray border */
+      border-radius: 2px;  /* Rounded border */
+      
+      width: 150px; /* Set a small width */
+    }
+    
+    /* Add a hover effect ( shadow) */
+   tr:hover {
+      box-shadow: 0 0 3px 3px red;
+    }
+    </style>
+    
     <h1>Animals by Bollena Bharath Kumar</h1>
     <div class="container">
         <div class="row">
@@ -35,6 +49,69 @@
     
         <div>As we observe when we resize it slowly the rows with Animal names break first at 767 x 578 px and then the rows with Animal letters breaks at 575 x 578 px</div>
     </div>
+    <div class="container">
+      <img src="Elephant.jpg" class="img-fluid" alt="Elephant"  height="500" width="400">
+      <img src="lion.jpeg" class="img-fluid" alt="lion" height="400" width="400">
+      <img src="bengal-tiger.jpg" class="img-fluid" alt="bengal-tiger" height="400" width="400" >
+    </div>
+    <div class="container">
+      <a target="_blank" href="Elephant.jpg"><img src="Elephant.jpg" class="img-thumbnail" alt="Elephant" style="width:150px"></a>
+      <a target="_blank" href="lion.jpeg"><img src="lion.jpeg" class="img-thumbnail" alt="lion" style="width:150px"></a>
+      <a target="_blank" href="bengal-tiger.jpg"><img class="img-thumbnail" src="bengal-tiger.jpg" alt="bengal-tiger" style="width:150px"></a>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-dark table-striped table-bordered table-hover table-sm">
+          <caption>List of Animal, City and Car names with Starting Letters of my surname</caption>
+          <thead class="thead-dark">
+              <tr>
+                  <th scope="col">Letter</th>
+                  <th scope="col">Animal</th>
+                  <th scope="col">City</th>
+                  <th scope="col">Car</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="table-primary">
+                  <th scope="row">B</th>
+                  <td>Bengal-tiger</td>
+                  <td>Bussan</td>
+                  <td>BMW</td>
+              </tr>
+              <tr class="table-success">
+                  <th scope="row">O</th>
+                  <td>Octopus</td>
+                  <td>odisha</td>
+                  <td>Orca</td>
+              </tr>
+              <tr class="table-warning">
+                  <th scope="row">L</th>
+                  <td>Lion</td>
+                  <td>Lisbon</td>
+                  <td>Lamborghini</td>
+              </tr>
+              <tr class="table-primary">
+                  <th scope="row">L</th>
+                  <td>Leopard</td>
+                  <td>Ladakh</td>
+                  <td>Land Rover</td>
+              </tr>
+              <tr class="table-success">
+                  <th scope="row">E</th>
+                  <td>Elephant</td>
+                  <td>Edmonton</td>
+                  <td>Egy-Tech</td>
+              </tr>
+              <tr class="table-warning">
+                  <th scope="row">N</th>
+                  <td>Nightingale</td>
+                  <td>New York</td>
+                  <td>Nikola</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
 
 </body>
 </html>
